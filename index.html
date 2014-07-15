@@ -112,7 +112,7 @@
         </div>
         <div class="col-lg-offset-1 col-lg-10">
           <h3>In need of Margin... <small><b><i>Oct 30th, 2013</i></b></small></h3>
-          <p>When I initially made the plugin the goal was to make the element stick to the very top, but after deciding to make an official example page for it I realizd that I loved the look of a floating plugin.  So I added a little feature called <b><i>marginTop</i></b> to the mix.  This allows the element to be caught by it's margin rather than when it hits the top of the page.
+          <p>When I initially made the plugin the goal was to make the element stick to the very top, but after deciding to make an official example page for it I realizd that I loved the look of a floating plugin.  So I added a little feature called <b><i>topMargin</i></b> to the mix.  This allows the element to be caught by it's margin rather than when it hits the top of the page.
           </p>
         </div>
         <div class="col-lg-offset-1 col-lg-10">
@@ -217,7 +217,7 @@
           </p>
           <p class="lead">
             There is currently one additional option that stickUp offers, with more to come.<br><br>
-            <b>marginTop</b>:
+            <b>topMargin</b>:
             Adding this option to your stickUp element will catch the element by a margin. You could either set this to <i>'auto'</i>, which grabs your element's top margin, or to a custom pixel height. Here is an example of how the floating menu works on this webpage.
           </p>
           <p>
@@ -228,8 +228,8 @@
                   $(document).ready( function() {
                     //enabling stickUp on the '.navbar-wrapper' class
                     $('.navbar-wrapper').stickUp({
-                      //enabling marginTop with the 'auto' setting 
-                      marginTop: 'auto'
+                      //enabling topMargin with the 'auto' setting 
+                      topMargin: 'auto'
                     });
                 });
               });
@@ -289,7 +289,7 @@
           </xmp>
           <p class="lead">
             <b>Done!</b> That element is now a sticky element.  You can use the other features of the plugin on Wordpress as well, just take a look at the <a href="#one-pager">One Pager</a> and <a href="#extras">Extras</a> section of this website.<br><br>
-            **Specifically look at the Extras feature <i>'marginTop'</i> to add a margin for use with the Wordpress Toolbar, otherwise it may have a conflict.
+            **Specifically look at the Extras feature <i>'topMargin'</i> to add a margin for use with the Wordpress Toolbar, otherwise it may have a conflict.
           </p>
         </div>
       </div> <!-- END WORDPRESS -->
